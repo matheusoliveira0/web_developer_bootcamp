@@ -1,0 +1,27 @@
+#bola {
+    width: 500px;
+    height: 500px;
+    background-color: plum;
+    border: 5px solid rgb(197, 140, 197);
+    transition: background-color 5s, border-radius 9s;
+    
+}
+
+#bola:hover {
+    background-color: paleturquoise;
+    border: 5px solid rgb(131, 176, 176);
+    border-radius: 50%;
+    
+}
+
+section div {
+    height: 100px;
+    width: 100px;
+    background-color: palegreen;
+    margin: 20px 0;
+    transition: margin-left 3s;
+}
+
+section:hover div {
+    margin-left: 500px;
+}

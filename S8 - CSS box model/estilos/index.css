@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(92, 159, 92);
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 201, 255);
+}
+h1 {
+    background-color: rgb(255, 201, 255);
+}
+
+#um {
+    background-color: #780000;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+#dois {
+    background-color: #c1121f;
+}
+#tres {
+    background-color: #fdf0d5;
+}

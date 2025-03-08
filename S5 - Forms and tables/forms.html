@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h1>form demo</h1>
+    <form action="/tacos">
+        <label for="username"> Name: </label>
+        <input type="text" id="username" placeholder="Nome completo" required min="5" max="30" name="username">
+
+        <p>
+            <label for="key"> Senha: </label>
+            <input type="password" id="key" name="password">
+        </p>
+        <p>
+            <label for="cor">Cor :</label> 
+            <input type="color" id="cor">
+        </p>
+        <p>
+            Mês:
+            <input type="month">
+        </p>
+        <p>
+            <label for="idade">Idade:</label>
+            
+            <input type="number" id="idade" name="idade">
+        </p>
+        <button>Enviar</button>
+    </form>
+    <form action="https://www.google.com/search?safe=strict&sca_esv=3ec8625b255dccb3&sxsrf=AHTn8zrzOs7whrLMR7OAiFV5MDqDhEq3xw:1741269734922&q=">
+        <input type="text" name="q" id="">
+        <button>buscar no google</button>
+    </form>
+    <h2>Checkboxes</h2>
+    <form action="/tacos">
+       <p> <label for="agree">I agree with everything</label>
+        <input type="checkbox" name="agree_term" id="agree" checked>
+        
+    </p>
+    <p>
+        <label for="p">P</label>
+        <input type="radio" id="p" name="size" value="p">
+
+        <label for="m">M</label>
+        <input type="radio" id="m" name="size" value="m">
+
+        <label for="g">G</label>
+        <input type="radio" id="g" name="size" value="g">
+    </p>
+    <p>
+        <label for="">Escolha uma refeição</label>
+        <select name="comida" id="comida">
+            <option value="carne">carne</option>
+            <option value="Frango">Frango</option>
+            <option value="Peixe">Peixe</option>
+            <option value="veg">Vegano</option>
+        </select>
+    </p>
+    <p>
+        <label for="qtd"> Quantidade de queijo:</label>
+        <input type="range" id="qdt" min="1" max="10" name="qtd_queijo" step="2" value="5">
+    </p>
+    <p>
+        <label for="inf">Informaçoes adicionais</label>
+        <br>
+        <textarea name="inf" id="inf" rows="10" cols="20" placeholder="escreva algo"></textarea>
+    </p>
+    <button>enviar</button>
+    </form>
+    <h2>Validations demo</h2>
+    <form action="/lolu">
+        <label for="first">EEnter first name:</label>
+        <input type="text" name="first" id="first" required>
+        <label for="username">Username: </label>
+        <input type="text" id="username" minlength="5" maxlength="10" required>
+
+        <br><button>submit</button>
+    </form>
+</body>
+
+</html>

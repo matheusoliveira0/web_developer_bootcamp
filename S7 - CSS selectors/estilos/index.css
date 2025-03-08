@@ -1,0 +1,40 @@
+.tagi {
+    color: #fff;
+    background-color: #780000;
+}
+
+.post a {
+    color: #669bbc;
+    text-decoration: none;
+}
+
+footer a {
+    color: plum;
+}
+
+input[type="password"] {
+    color: greenyellow
+}
+
+input[type="number"] {
+    color: red
+}
+
+.post button:hover {
+    background-color: red;
+}
+
+.post button:active {
+    background-color: aqua;
+}
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: plum;
+}
+p::selection{
+    background-color: orange;
+}
