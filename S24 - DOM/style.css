@@ -1,0 +1,25 @@
+.purple {
+    color: purple;
+    text-decoration: underline;
+    text-decoration-color : blue;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.pictures {
+    width: 250px;
+
+}
+
+#container {
+    border: 1px solid red;
+    padding: 0;
+    width: 344px;
+    height: auto;
+}
+
+button{
+    margin: 0;
+}
